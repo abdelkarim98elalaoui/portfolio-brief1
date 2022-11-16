@@ -1,0 +1,286 @@
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+/*Global */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#3AA5A4,#7AE5E4);
+    padding: 6rem;
+
+}
+section {
+    margin: 3rem 0;
+}
+.about-me,.Projects ,.work ,.education,.language,.Contact,.links{
+    padding:3rem;
+    background-color: white;
+}
+
+p{
+   font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    max-width: 400px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/*background*/
+.bg{
+    background: #3AA5A4;
+    opacity: .1;
+    width: 90%;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url(./images/me.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/*---------------
+------header-----
+-----------------*/
+.name{
+    width: 100%;
+    text-align: center;
+    color:white;
+    margin-bottom: 2rem;
+    z-index: 10;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin: auto ;
+
+}
+h4{
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    margin: auto ;
+}
+
+/*---------about me---------*/
+.about-me{
+    z-index: 1;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.content{
+    overflow: hidden;
+    padding-right: 2rem;
+    line-height: 1rem;
+}
+.content img{
+    width: 400px;
+    height: 300px;
+    margin-right: 2rem;
+    object-fit: cover;
+    float: left;
+
+}
+.about-me h2{
+    margin-bottom: 2rem;
+    font-family: 500;
+}
+.content p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+/*--------Projects-------*/
+.Projects .content{
+    text-align: start;
+}
+.Projects{
+    
+}
+.project1{
+   float: left;
+   margin-right: 100px;
+}
+.project2{
+  float: left;
+  margin-right: 100px;
+}
+.project3{
+    float: left;
+}
+
+.project1 img{
+    width: 200px;
+    height: 180px;
+   object-fit: cover;
+    margin-bottom: 2rem;
+}
+.project2 img{
+    width: 200px;
+   height: 180px;
+   object-fit: cover;
+    margin-bottom: 2rem;
+}
+.project3 img{
+    width: 200px;
+    height: 180px;
+   object-fit: cover;
+   margin-bottom: 2rem;
+}
+.Projects img:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.project p{
+    opacity: .4;
+}
+/*----- work ----*/
+.work .content {
+    display: block;
+}
+.work  h4{
+    opacity: .4;
+    margin-top: 2rem;
+}
+.work h3{
+    margin: 1rem 0;
+    font-weight:400;
+}
+.work p{
+    font-size: .8rem;
+    opacity: .8;
+}
+
+/*Education*/
+.education h4{
+    opacity: .5 ;
+    margin-top: 1rem;
+}
+.education h3{
+    font-weight: 500;
+    margin: .5rem 0 .9rem 0;
+}
+.education p{
+    opacity: .8;
+}
+.bac
+{
+    float: left;
+}
+
+.licence{
+    float: left;
+    margin-left: 16rem;
+}
+.solicode{
+    float: right;
+}
+/*Langue*/
+.language .content{
+    padding-bottom: .3rem;
+}
+.eng{
+    float: left;
+}
+.fr{
+    margin-right: 28rem;
+}
+.ar,.fr{
+    float: right;
+}
+.language h3{
+    font-weight: 500;
+    margin: 1rem 0;
+}
+/**/
+/*links*/
+
+.facebook{
+    float: left;
+}
+.github{
+    margin-right: 27rem;
+}
+.instgram,.github{
+    float: right;
+}
+.links img{
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+/*contact*/
+form{
+    width: 100%;
+    overflow: hidden;
+}
+input {
+    width: 100%;
+    padding: .7rem .5rem ;
+    margin: .3rem 0;
+    background-color: rgb(231, 231, 231);
+    outline: none;
+    border: none;
+}
+input::placeholder {
+    padding: 4rem 1rem ;
+}
+textarea{
+    width: 100%;
+    padding: .7rem .5rem ;
+    margin: .3rem 0;
+    background-color: rgb(231, 231, 231);
+    outline: none;
+    border: none;
+}
+textarea::placeholder{
+    padding: 0rem 1rem ;
+}
+form .text {
+    width: 100%;
+   
+}
+form button {
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: 1ms ease;
+}
+form button:hover {
+    color: white;
+    background-color: #3AA5A4   ;
+   
+}
+
+
+
+
+
+
+/*==================================
+--------------Media-----------------
+====================================
+*/
